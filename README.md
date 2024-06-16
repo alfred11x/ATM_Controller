@@ -38,14 +38,12 @@ Please try again
 **
 
 Input:
-yaml
-Copy code
+
 Card inserted: true
 PIN entered: incorrect PIN
 
 Expected Output:
-lua
-Copy code
+
 Please insert your card
 Please insert your PIN
 Please try again
