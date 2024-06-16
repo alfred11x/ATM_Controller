@@ -4,15 +4,14 @@ Thos Code is of a simple ATM Controller. The content shows the overall flow of t
 Successful Login and Account Selection
 
 Input:
-yaml
-Copy code
+
 Card inserted: true
 PIN entered: correct PIN
 Accounts retrieved: [1001, 2002, 3003]
 Account chosen: 1001
+
 Expected Output:
-yaml
-Copy code
+
 Please insert your card
 Please insert your PIN
 Account0 : 1001
@@ -23,10 +22,12 @@ Balance: <balance of account 1001>
 Would you like to Withdraw or deposit
 Incorrect Card Insertion
 
+
 Input:
 yaml
 Copy code
 Card inserted: false
+
 Expected Output:
 arduino
 Copy code
@@ -39,6 +40,7 @@ yaml
 Copy code
 Card inserted: true
 PIN entered: incorrect PIN
+
 Expected Output:
 lua
 Copy code
@@ -53,6 +55,7 @@ Copy code
 Card inserted: true
 PIN entered: correct PIN
 Accounts retrieved: []
+
 Expected Output:
 lua
 Copy code
@@ -69,6 +72,7 @@ PIN entered: correct PIN
 Accounts retrieved: [1001]
 Account chosen: 1001
 Withdraw amount: 50
+
 Expected Output:
 yaml
 Copy code
