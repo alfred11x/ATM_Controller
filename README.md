@@ -24,6 +24,7 @@ Would you like to Withdraw or deposit
 
 **Incorrect Card Insertion
 **
+
 Input:
 
 Card inserted: false
