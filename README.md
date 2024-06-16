@@ -14,6 +14,7 @@ Accounts retrieved: [1001, 2002, 3003]
 
 Account chosen: 1001
 
+
 Expected Output:
 
 Please insert your card
@@ -31,6 +32,8 @@ Please Choose Account
 Balance: <balance of account 1001>
 
 Would you like to Withdraw or deposit
+
+Thanks for your deposit
 
 
 **Incorrect Card Insertion
@@ -110,10 +113,8 @@ Account0 : 1001
 
 Please Choose Account
 
-Balance: <balance of account 1001>
+Balance: <balance of account 1001=10>
 
 Would you like to Withdraw or deposit
 
-Thanks for your withdrawal
-
-Thanks for your deposit
+Try again
